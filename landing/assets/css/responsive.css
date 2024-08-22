@@ -1,0 +1,75 @@
+@media (min-width:1200px) and (max-width:1800px) {
+.mmpopup .centercont h3 span {
+    font-size: 30px;
+}
+
+.mmpopup .centercont h4 span {
+    font-size: 40px;
+}
+
+.mmpopup .centercont p {
+    padding-bottom: 0px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.mmpopup .centercont h3, .pckg-box2 ul li {
+    margin-bottom: 10px;
+}
+
+.mmpopup {
+    height: 570px;
+    padding: 20px 0px;
+}
+
+.popupmain {border-radius: 20px;}
+
+
+}
+
+
+
+
+
+@media (min-width:300px) and (max-width:767px) {
+.popupmain {
+    background: none;
+    width: 100%;
+    height: 450px;
+    top: 40%;
+}
+
+.mmpopup .centercont h3 span {
+    font-size: 30px;
+}
+
+.mmpopup .centercont h4 span {
+    font-size: 30px;
+}
+
+.mmpopup .centercont h3, .pckg-box2 ul li {
+    margin-bottom: 0px;
+}
+
+.mmpopup .centercont p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 10px;
+}
+
+
+.mmpopup {
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+
+.closeico, .closeico1 {
+    right: 20px;
+}
+
+.checkVal {
+    margin: 0px 9px 0;
+}
+
+}

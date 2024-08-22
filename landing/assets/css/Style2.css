@@ -1,0 +1,130 @@
+.news {
+    padding-top: 100px;
+    padding-bottom: 95px;
+    position: relative;
+}
+.news::before {
+    content: "";
+    width: 100%;
+    height: 29%;
+    background-color: rgb(246, 248, 251);
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -2;
+    margin: auto;
+}
+
+.news-cnt {
+    max-width: 902px;
+    text-align: center;
+}
+.news-cnt h1 span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(21, 27, 53);
+}
+.news-cnt p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 158.3%;
+    text-align: center;
+    color: rgb(86, 90, 94);
+    padding-bottom: 60px;
+    margin: 0px;
+}
+.news-box {
+    padding-bottom: 40px;
+    margin-bottom: 45px;
+}
+.news-box-img {
+    background: rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 10px;
+}
+.news-box-img img {
+    border-radius: 40px;
+}
+.news-box-cnt {
+    padding-left: 10px;
+}
+.news-box-cnt h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 145.3%;
+    color: rgb(9, 36, 61);
+    padding-top: 15px;
+    margin: 0px;
+}
+.news-box-cnt p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgb(0, 0, 0);
+    padding-bottom: 18px;
+}
+.iti{
+    width:100%;
+
+}
+.plan-list {
+    position: relative;
+    overflow-y: auto;
+    height: 310px;
+    scroll-behavior: smooth;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+    .plan-list li {
+        list-style: none;
+        padding: 10px 0 10px 0;
+        position:relative;
+    }
+        .plan-list li::before {
+            background-image: url(../images/icon/tic.png);
+            content: "";
+            width: 17px;
+            height: 17px;
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            left: -24px;
+            top: 17px;
+            position: absolute;
+        }
+        .pkg-head{
+            text-align:center;
+        }
+.pkg-price{
+    text-align:center;
+    margin-top:0 !important;
+}
+
+.disabled {
+    text-decoration: line-through;
+    font-size: 20px !important;
+    color: #ec0752 !important;
+}
+
+
+
+
+@media (max-width: 991.98px) {
+    .plan-list li{
+        text-align:left;
+    }
+}
